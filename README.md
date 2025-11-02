@@ -26,6 +26,7 @@ python app.py
 -Close the window or press Ctrl+C in terminal to stop.
 
 ## 📂 Project Structure
+
 ├── app.py              # Main script with YOLO + Tkinter integration
 ├── requirements.txt    # Dependencies
 ├── README.md           # Project documentation
