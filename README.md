@@ -15,9 +15,25 @@ It provides a simple desktop interface where users can view live detections with
 
 ---
 
+## Install dependencies:
+pip install ultralytics opencv-python pillow
+
+## ▶️ Usage
+Run the script:
+python app.py
+-The Tkinter window will open and start the webcam feed.
+-YOLOv8 will detect objects in real-time and draw bounding boxes.
+-Close the window or press Ctrl+C in terminal to stop.
+
+## 📂 Project Structure
+├── app.py              # Main script with YOLO + Tkinter integration
+├── requirements.txt    # Dependencies
+├── README.md           # Project documentation
+
 ## 🛠️ Installation
 
 Clone the repository:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
+
