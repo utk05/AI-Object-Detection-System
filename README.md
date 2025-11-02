@@ -15,9 +15,6 @@ It provides a simple desktop interface where users can view live detections with
 
 ---
 
-## Install dependencies:
-pip install ultralytics opencv-python pillow
-
 ## ▶️ Usage
 Run the script:
 python app.py
@@ -25,14 +22,21 @@ python app.py
 -YOLOv8 will detect objects in real-time and draw bounding boxes.
 -Close the window or press Ctrl+C in terminal to stop.
 
-## 📂 Project Structure
+## 🛠️ Tech Stack
+- **Python 3.9+**
+- **YOLOv8 (Ultralytics)** – real-time object detection
+- **OpenCV** – webcam integration & image processing
+- **Tkinter** – GUI for live video display
+- **Pillow** – image handling for Tkinter
+- **GitHub** – version control & project hosting
 
-├── app.py              # Main script with YOLO + Tkinter integration
-├── requirements.txt    # Dependencies
-├── README.md           # Project documentation
+
+## 🚀 Future Improvements
+-Add Start/Stop buttons in the UI
+-Allow switching between multiple cameras
+-Add screenshot/save detection feature
 
 ## 🛠️ Installation
-
 Clone the repository:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
